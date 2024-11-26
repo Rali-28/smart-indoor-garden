@@ -1,21 +1,22 @@
 #include <main.h>
 #include <Arduino.h>
-#include <BlynkSimpleEsp32.h>
+#include <WiFi.h>
+#include <BlynkSimpleEsp32_SSL.h>
+
 
 // * Blynk Device Wifi Provisioning, For use later
-/**
- * #define USE_ESP32_DEV_MODULE
- * #include "BlynkEdgent.h"
- */
+
+#define USE_ESP32_DEV_MODULE
+#include "BlynkEdgent.h"
 
 void setup()
 {
   // * Blynk Wifi Provisioning
-  // BlynkEdgent.begin();
+  BlynkEdgent.begin();
 }
 
 void loop()
 {
   // * Blynk Wifi Provisioning
-  // BlynkEdgent.run();
+  BlynkEdgent.run();
 }

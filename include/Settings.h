@@ -38,7 +38,7 @@
 
 #elif defined(USE_ESP32_DEV_MODULE)
 
-  #warning "The LED of this board is not configured"
+  // #warning "The LED of this board is not configured"
 
   #define BOARD_BUTTON_PIN            0
   #define BOARD_BUTTON_ACTIVE_LOW     true

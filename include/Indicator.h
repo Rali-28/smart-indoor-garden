@@ -127,7 +127,7 @@ protected:
 
 #else
 
-  #warning Invalid LED configuration.
+  // #warning Invalid LED configuration.
 
   void initLED() {
   }
